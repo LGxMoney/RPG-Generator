@@ -1,0 +1,223 @@
+﻿{
+    "Fighter": {
+        "hitDie": 10,
+        "Armor": {
+            "light": true,
+            "medium": true,
+            "heavy": true,
+            "shields": true
+        },
+        "weapons": {
+            "simple": true,
+            "martial": true
+        },
+        "savingThrows": {
+            "str": true,
+            "con": true
+        },
+        "LevelOne": {
+            "proficiencyBonus": 2,
+            "feats": {
+                "FightingStyle": {
+                    "description": "You adopt a particular style of fighting as your specialty. Choose a Fighting Style from the list of optional features. You can't take the same Fighting Style option more than once, even if you get to choose again.",
+                    "archery": {
+                        "description": "You gain a +2 bonus to Attack rolls you make with Ranged Weapons."
+                    },
+                    "defense": {
+                        "description": "While you are wearing armor, you gain a +1 bonus to AC."
+                    },
+                    "dueling": {
+                        "description": "When you are wielding a melee weapon in one hand and no other Weapons, you gain a +2 bonus to Damage Rolls with that weapon."
+                    },
+                    "greatWeaponFighting": {
+                        "description": "When you roll a 1 or 2 on a damage die for an Attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the Two-Handed or Versatile property for you to gain this benefit."
+                    },
+                    "protection": {
+                        "description": "When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your Reaction to impose disadvantage on the Attack roll. You must be wielding a Shield."
+                    },
+                    "twoWeaponFighting": {
+                        "description": "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second Attack."
+                    }
+                },
+                "SecondWind": {
+                    "description": "You have a limited well of stamina that you can draw on to protect yourself from harm. On Your Turn, you can use a Bonus Action to regain Hit Points equal to 1d10 + your Fighter level. Once you use this feature, you must finish a short or Long Rest before you can use it again."
+                }
+            }
+        },
+        "LevelTwo": {
+            "proficiencyBonus": 2,
+            "feats": {
+                "ActionSurge": {
+                    "description": "Starting at 2nd Level, you can push yourself beyond your normal limits for a moment. On Your Turn, you can take one additional action on top of your regular action and a possible Bonus Action. Once you use this feature, you must finish a short or Long Rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn."
+                }
+            }
+        },
+        "LevelThree": {
+            "proficiencyBonus": 2,
+            "feats": {
+                "MartialArchetype": {
+                    "Champion": {
+                        "description": "The archetypal Champion focuses on the Development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous Training with physical excellence to deal devastating blows.",
+                        "ImprovedCritical": {
+                            "description": "Beginning when you choose this archetype at 3rd Level, your weapon attacks score a critical hit on a roll of 19 or 20."
+                        }
+                    }
+                }
+            }
+        },
+        "LevelFour": {
+            "proficiencyBonus": 2,
+            "abilityScoreImprovement": {
+                "description": "When you reach 4th Level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+                "points": 2
+            }
+        },
+        "LevelFive": {
+            "proficiencyBonus": 3,
+            "feats": {
+                "extraAttack": {
+                    "description": "Beginning at 5th Level, you can Attack twice, instead of once, whenever you take the Attack action on Your Turn."
+                }
+            }
+        },
+        "LevelSix": {
+            "proficiencyBonus": 3,
+            "abilityScoreImprovement": {
+                "description": "When you reach 4th Level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+                "points": 2
+            }
+        },
+        "LevelSeven": {
+            "proficiencyBonus": 3,
+            "feats": {
+                "RemarkableAthlete": {
+                    "description": "Starting at 7th level, you can add half your Proficiency Bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn’t already use your Proficiency Bonus. In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier."
+                }
+            }
+        },
+        "LevelEight": {
+            "proficiencyBonus": 3,
+            "abilityScoreImprovement": {
+                "description": "When you reach 4th Level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+                "points": 2
+            }
+        },
+        "LevelNine": {
+            "proficiencyBonus": 3,
+            "feats": {
+                "Indomitable": {
+                    "description": "Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature again until you finish a Long Rest. You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level.",
+                    "numUses": 1
+                }
+            }
+        },
+        "LevelTen": {
+            "proficiencyBonus": 4,
+            "feats": {
+                "FightingStyle": {
+                    "description": "You adopt a particular style of fighting as your specialty. Choose a Fighting Style from the list of optional features. You can't take the same Fighting Style option more than once, even if you get to choose again.",
+                    "archery": {
+                        "description": "You gain a +2 bonus to Attack rolls you make with Ranged Weapons."
+                    },
+                    "defense": {
+                        "description": "While you are wearing armor, you gain a +1 bonus to AC."
+                    },
+                    "dueling": {
+                        "description": "When you are wielding a melee weapon in one hand and no other Weapons, you gain a +2 bonus to Damage Rolls with that weapon."
+                    },
+                    "greatWeaponFighting": {
+                        "description": "When you roll a 1 or 2 on a damage die for an Attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the Two-Handed or Versatile property for you to gain this benefit."
+                    },
+                    "protection": {
+                        "description": "When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your Reaction to impose disadvantage on the Attack roll. You must be wielding a Shield."
+                    },
+                    "twoWeaponFighting": {
+                        "description": "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second Attack."
+                    }
+                }
+            }
+        },
+        "LevelEleven": {
+            "proficiencyBonus": 4,
+            "feats": {
+                "extraAttack": {
+                    "description": "The number of attacks increases to three when you reach 11th level in this class"
+                }
+            }
+        },
+        "LevelTwelve": {
+            "proficiencyBonus": 4,
+            "abilityScoreImprovement": {
+                "description": "When you reach 4th Level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+                "points": 2
+            }
+        },
+        "LevelThirteen": {
+            "proficiencyBonus": 5,
+            "feats": {
+                "Indomitable": {
+                    "description": "Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature again until you finish a Long Rest. You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level.",
+                    "numUses": 2
+                }
+            }
+        },
+        "LevelFourteen": {
+            "proficiencyBonus": 5,
+            "abilityScoreImprovement": {
+                "description": "When you reach 4th Level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+                "points": 2
+            }
+        },
+        "LevelFifteen": {
+            "proficiencyBonus": 5,
+            "feats": {
+                "SuperiorCritical": {
+                    "description": "Starting at 15th level, your weapon attacks score a critical hit on a roll of 18–20."
+                }
+            }
+        },
+        "LevelSixteen": {
+            "proficiencyBonus": 5,
+            "abilityScoreImprovement": {
+                "description": "When you reach 4th Level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+                "points": 2
+            }
+        },
+        "LevelSeventeen": {
+            "proficiencyBonus": 5,
+            "feats": {
+                "ActionSurge": {
+                    "description": "you can push yourself beyond your normal limits for a moment. On Your Turn, you can take one additional action on top of your regular action and a possible Bonus Action. Once you use this feature, you must finish a short or Long Rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.",
+                    "numUses": 2
+                },
+                "Indomitable": {
+                    "description": "Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature again until you finish a Long Rest. You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level.",
+                    "numUses": 3
+                }
+            }
+        },
+        "LevelEighteen": {
+            "proficiencyBonus": 6,
+            "feats": {
+                "Survivor": {
+                    "description": "At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns, you regain Hit Points equal to 5 + your Constitution modifier if you have no more than half of your Hit Points left. You don’t gain this benefit if you have 0 Hit Points."
+                }
+            }
+        },
+        "LevelNineteen": {
+            "proficiencyBonus": 6,
+            "abilityScoreImprovement": {
+                "description": "When you reach 4th Level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+                "points": 2
+            }
+        },
+        "LevelTwenty": {
+            "proficiencyBonus": 6,
+            "feats": {
+                "extraAttack": {
+                    "description": "The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class."
+                }
+            }
+        }
+    }
+}

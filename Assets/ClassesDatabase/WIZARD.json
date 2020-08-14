@@ -1,0 +1,198 @@
+{
+  "Wizard": {
+    "hitDie": 6,
+    "Armor": {
+      "light": false,
+      "medium": false,
+      "heavy": false,
+      "shields": false
+    },
+    "weapons": {
+      "dagger": true,
+      "dart": true,
+      "sling": true,
+      "quarterstaff": true,
+      "lightCrossbow": true
+    },
+    "savingThrows": {
+      "int": true,
+      "wis": true
+    },
+    "LevelOne": {
+      "proficiencyBonus": "2",
+      "spellSlots": [
+        "3",
+        "2",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "feats": {
+        "Spellcasting": {},
+        "ArcaneRecovery": {
+          "description": "You have learned to regain some of your magical energy by studying your Spellbook. Once per day when you finish a Short Rest, you can choose expended Spell Slots to recover. The Spell Slots can have a combined level that is equal to or less than half your Wizard level (rounded up), and none of the slots can be 6th level or higher. For example, if you’re a 4th-level Wizard, you can recover up to two levels worth of Spell Slots. You can recover either a 2nd-level spell slot or two 1st-level Spell Slots."
+        }
+      }
+    },
+    "LevelTwo": {
+      "proficiencyBonues": "2",
+      "spellSlots": [
+        "3",
+        "3",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "feats": {
+        "arcaneTradition": {
+          "Evocation": {
+            "description": "You focus your study on magic that creates powerful elemental Effects such as bitter cold, searing flame, Rolling Thunder, crackling lightning, and burning acid. Some evokers find employment in Military forces, serving as artillery to blast enemy armies from afar. Others use their spectacular power to protect the weak, while some seek their own gain as bandits, adventurers, or aspiring tyrants.",
+            "EvocationSavant": {
+              "description": "Beginning when you select this school at 2nd Level, the gold and time you must spend to copy an Evocation spell into your Spellbook is halved."
+            },
+            "SculptSpells": {
+              "description": "Beginning at 2nd Level, you can create pockets of relative safety within the Effects of your Evocation Spells. When you cast an Evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell’s level. The chosen creatures automatically succeed on their Saving Throws against the spell, and they take no damage if they would normally take half damage on a successful save."
+            }
+          }
+        }
+      }
+    },
+    "LevelThree": {
+      "proficiencyBonus": "2",
+      "spellSlots": "3, 4, 2, 0, 0, 0, 0, 0, 0, 0"
+    },
+    "LevelFour": {
+      "proficiencyBonus": "2",
+      "spellSlots": "4, 4, 3, 0, 0, 0, 0, 0, 0, 0",
+      "feats": {
+        "AbilityScoreImprovement": {
+          "description": "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+          "points": 2
+        }
+      }
+    },
+    "LevelFive": {
+      "proficiencyBonus": "3",
+      "spellSlots": "4, 4, 3, 2, 0, 0, 0, 0, 0, 0"
+    },
+    "LevelSix": {
+      "proficiencyBonus": "3",
+      "spellSlots": "4, 4, 3, 3, 0, 0, 0, 0, 0, 0",
+      "feats": {
+        "PotentCantrip": {
+          "description": "Starting at 6th level, your damaging Cantrips affect even creatures that avoid the brunt of the Effect. When a creature succeeds on a saving throw against your cantrip, the creature takes half the cantrip’s damage (if any) but suffers no additional Effect from the cantrip."
+        }
+      }
+    },
+    "LevelSeven": {
+      "proficiencyBonus": "3",
+      "spellSlots": "4, 4, 3, 3, 1, 0, 0, 0, 0, 0"
+    },
+    "LevelEight": {
+      "proficiencyBonus": "3",
+      "spellSlots": "4, 4, 3, 3, 2, 0, 0, 0, 0, 0",
+      "feats": {
+        "AbilityScoreImprovement": {
+          "description": "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+          "points": 2
+        }
+      }
+    },
+    "LevelNine": {
+      "proficiencyBonus": "4",
+      "spellSlots": "4, 4, 3, 3, 3, 1, 0, 0, 0, 0"
+    },
+    "LevelTen": {
+      "proficiencyBonus": "4",
+      "spellSlots": "5, 4, 3, 3, 3, 2, 0, 0, 0, 0",
+      "feats": {
+        "EmpoweredEvocation": {
+          "description": "Beginning at 10th level, you can add your Intelligence modifier to one damage roll of any Wizard Evocation spell you cast."
+        }
+      }
+    },
+    "LevelEleven": {
+      "proficiencyBonus": "4",
+      "spellSlots": "5, 4, 3, 3, 3, 2, 1, 0, 0, 0"
+    },
+    "LevelTwelve": {
+      "proficiencyBonus": "4",
+      "spellSlots": "5, 4, 3, 3, 3, 2, 1, 0, 0, 0",
+      "feats": {
+        "AbilityScoreImprovement": {
+          "description": "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+          "points": 2
+        }
+      }
+    },
+    "LevelThirteen": {
+      "proficiencyBonus": "5",
+      "spellSlots": "5, 4, 3, 3, 3, 2, 1, 1, 0, 0"
+    },
+    "LevelFourteen": {
+      "proficiencyBonus": "5",
+      "spellSlots": "5, 4, 3, 3, 3, 2, 1, 1, 0, 0",
+      "feats": {
+        "Overchannel": {
+          "description": "Starting at 14th level, you can increase the power of your simpler Spells. When you cast a Wizard spell of 1st through 5th Level that deals damage, you can deal maximum damage with that spell. The first time you do so, you suffer no adverse Effect. If you use this feature again before you finish a Long Rest, you take 2d12 necrotic damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a Long Rest, the necrotic damage per Spell Level increases by 1d12. This damage ignores Resistance and immunity."
+        }
+      }
+    },
+    "LevelFifteen": {
+      "proficiencyBonus": "5",
+      "spellSlots": "5, 4, 3, 3, 3, 2, 1, 1, 1, 0"
+    },
+    "LevelSixteen": {
+      "proficiencyBonus": "5",
+      "spellSlots": "5, 4, 3, 3, 3, 2, 1, 1, 1, 0",
+      "feats": {
+        "AbilityScoreImprovement": {
+          "description": "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+          "points": 2
+        }
+      }
+    },
+    "LevelSeventeen": {
+      "proficiencyBonus": "6",
+      "spellSlots": "5, 4, 3, 3, 3, 2, 1, 1, 1, 1"
+    },
+    "LevelEighteen": {
+      "proficiencyBonus": "6",
+      "spellSlots": "5, 4, 3, 3, 3, 3, 1, 1, 1, 1",
+      "feats": {
+        "SpellMastery": {
+          "description": "At 18th level, you have achieved such mastery over certain Spells that you can cast them at will. Choose a 1st-level Wizard spell and a 2nd-level Wizard spell that are in your Spellbook. You can cast those Spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal. By spending 8 hours in study, you can exchange one or both of the Spells you chose for different Spells of the same levels."
+        }
+      }
+    },
+    "LevelNineteen": {
+      "proficiencyBonus": "6",
+      "spellSlots": "5, 4, 3, 3, 3, 3, 2, 1, 1, 1",
+      "feats": {
+        "AbilityScoreImprovement": {
+          "description": "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+          "points": 2
+        }
+      }
+    },
+    "LevelTwenty": {
+      "proficiencyBonus": "6",
+      "spellSlots": "5, 4, 3, 3, 3, 3, 2, 2, 1, 1",
+      "feats": {
+        "SignatureSpells": {
+          "description": "When you reach 20th level, you gain mastery over two powerful Spells and can cast them with little effort. Choose two 3rd-level Wizard Spells in your Spellbook as your signature Spells. You always have these Spells prepared, they don't count against the number of Spells you have prepared, and you can cast each of them once at 3rd Level without expending a spell slot. When you do so, you can't do so again until you finish a short or Long Rest. If you want to cast either spell at a higher level, you must expend a spell slot as normal."
+        }
+      }
+    }
+  }
+}
