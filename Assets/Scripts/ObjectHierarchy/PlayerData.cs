@@ -6,17 +6,21 @@ using System.IO;
 
 public class PlayerData : CharacterData
 {
+    public int hitDie;
     public List<Feat> feats;
+    public List<JSONString> armorProficiencies;
+    public List<JSONString> weaponProficiencies;
+    public List<JSONString> savingThrows;
 
-    public PlayerData(string characterClass, string race, int level)
+
+
+    public void Start()
     {
         string fighterString = File.ReadAllText("Assets/ClassesDatabase/FIGHTER.json");
         var FighterJSON = JSON.Parse(fighterString);
-        int hitDie = FighterJSON["Fighter"]["hitDie"].AsInt;
-        Debug.Log(hitDie);
-
-        this.level = level;
-        this.race = new RaceData(race);
-        this.characterClass = new ClassData(characterClass);
+        int armor = FighterJSON["Fighter"]["Armor"];
+        //Debug.Log(hitDie);
+        this.race = new RaceData(raceName);
+        this.characterClass = new ClassData(className);
     }
 }

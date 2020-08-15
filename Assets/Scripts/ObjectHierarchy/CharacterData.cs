@@ -22,24 +22,26 @@ public class CharacterData : MonoBehaviour
     public List<ItemData> inventory;
 
     //Descriptions
+    public string className;
+    public string raceName;
     public string gender;
     public RaceData race;
     public ClassData characterClass;
 
-    public CharacterData()
-    {
-        level = 1;
-        hpMax = 10;
-        hp = hpMax;
-        challengeRating = 1;
-        armorClass = 10;
-        stats = new int[6]{ 10,10,10,10,10,10};
-        gold = 0;
-        speed = 30;
-        gender = "male";
+    //public CharacterData()
+    //{
+        //level = 1;
+        //hpMax = 10;
+        //hp = hpMax;
+        //challengeRating = 1;
+        //armorClass = 10;
+        //stats = new int[6]{ 10,10,10,10,10,10};
+        //gold = 0;
+        //speed = 30;
+        //gender = "male";
         //inventory = new List<ItemData>();
         
         //race = new RaceData();
         //characterClass = new ClassData();
-    }
+    //}
 }

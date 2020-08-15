@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{BB5CE9DE-2875-CB7E-DD0F-32CE965C715F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ObjectHierarchy/ClassData.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ObjectHierarchy/CharacterData.cs">
     <Files>
-      <File FileName="Assets/Scripts/ObjectHierarchy/CharacterData.cs" Line="54" Column="40" />
-      <File FileName="Assets/Scripts/ObjectHierarchy/ClassData.cs" Line="5" Column="23" />
-      <File FileName="Assets/Scripts/ObjectHierarchy/RaceData.cs" Line="10" Column="22" />
-      <File FileName="Assets/Scripts/ObjectHierarchy/PlayerData.cs" Line="7" Column="29" />
+      <File FileName="Assets/Scripts/ObjectHierarchy/CharacterData.cs" Line="46" Column="1" />
+      <File FileName="Assets/Scripts/ObjectHierarchy/ClassData.cs" />
+      <File FileName="Assets/Scripts/ObjectHierarchy/RaceData.cs" />
+      <File FileName="Assets/Scripts/ObjectHierarchy/PlayerData.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +13,7 @@
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
                 <Node name="ObjectHierarchy" expanded="True">
-                  <Node name="ClassData.cs" selected="True" />
+                  <Node name="CharacterData.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
@@ -24,7 +24,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e94417d9-750c-40f4-a2d4-fd3d5d9d5bbb" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c429497e-789e-485b-8dc9-d2918fde1e08" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -6,6 +6,7 @@
 /nostdlib+
 /preferreduilang:en-US
 /langversion:latest
+/reference:"Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -67,7 +68,6 @@
 /reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/Managed/UnityEditor.dll"
-/reference:"Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll"
 /reference:"Library/ScriptAssemblies/Unity.Timeline.Editor.dll"
 /reference:"Library/ScriptAssemblies/Unity.VSCode.Editor.dll"
 /reference:"Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll"
@@ -290,5 +290,7 @@
 /define:CSHARP_7_3_OR_NEWER
 "Assets/Scripts/ObjectHierarchy/CharacterData.cs"
 "Assets/Scripts/ObjectHierarchy/ClassData.cs"
+"Assets/Scripts/ObjectHierarchy/Feat.cs"
 "Assets/Scripts/ObjectHierarchy/ItemData.cs"
+"Assets/Scripts/ObjectHierarchy/PlayerData.cs"
 "Assets/Scripts/ObjectHierarchy/RaceData.cs"
