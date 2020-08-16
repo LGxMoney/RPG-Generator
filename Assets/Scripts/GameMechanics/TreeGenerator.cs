@@ -14,7 +14,8 @@ public class TreeGenerator : MonoBehaviour
     {
         for (int i = 0; i < treeCount; i += 1)
         {
-            Vector3 position = new Vector3(Random.Range(1, 100), .2f, Random.Range(1, 100));
+            Vector3 position = new Vector3(Random.Range(1, 300), 0, Random.Range(1, 300));
+            position.y = Terrain.activeTerrain.SampleHeight(position) + Terrain.activeTerrain.GetPosition().y;
             //Element tree = trees[0];
             GameObject newTree = Instantiate(prefab);
             newTree.transform.position = position;
