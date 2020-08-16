@@ -7,14 +7,14 @@
       "heavy": false,
       "shields": false
     },
-    "weapons": {
+    "Weapons": {
       "dagger": true,
       "dart": true,
       "sling": true,
       "quarterstaff": true,
       "lightCrossbow": true
     },
-    "savingThrows": {
+    "SavingThrows": {
       "int": true,
       "wis": true
     },

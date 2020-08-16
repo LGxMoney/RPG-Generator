@@ -9,12 +9,12 @@ public class ClassData
     public ClassData(string characterClass)
     {
         //create a json object to read from for the specified class
-        string ClassJSONPath = "Assets/ClassesDatabase/" + characterClass + ".json";
-        string fighterString = File.ReadAllText(ClassJSONPath);
-        var ClassJSONObj = JSON.Parse(fighterString);
+        //string ClassJSONPath = "Assets/ClassesDatabase/" + characterClass + ".json";
+        //string fighterString = File.ReadAllText(ClassJSONPath);
+        //var ClassJSONObj = JSON.Parse(fighterString);
 
 
-        int hitDie = ClassJSONObj[characterClass][].AsInt;
+        //int hitDie = ClassJSONObj[characterClass][].AsInt;
     }
     
 }

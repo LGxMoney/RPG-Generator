@@ -7,11 +7,11 @@
             "heavy": true,
             "shields": true
         },
-        "weapons": {
+        "Weapons": {
             "simple": true,
             "martial": true
         },
-        "savingThrows": {
+        "SavingThrows": {
             "str": true,
             "con": true
         },
