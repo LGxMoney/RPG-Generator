@@ -63,6 +63,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\GameMechanics\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\GameMechanics\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\GameMechanics\TreeGenerator.cs" />
     <Compile Include="Assets\Scripts\ObjectHierarchy\CharacterData.cs" />
     <Compile Include="Assets\Scripts\ObjectHierarchy\ClassData.cs" />
     <Compile Include="Assets\Scripts\ObjectHierarchy\Feat.cs" />

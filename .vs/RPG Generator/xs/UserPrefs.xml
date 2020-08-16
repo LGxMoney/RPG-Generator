@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{BB5CE9DE-2875-CB7E-DD0F-32CE965C715F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ObjectHierarchy/CharacterData.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameMechanics/TreeGenerator.cs">
     <Files>
-      <File FileName="Assets/Scripts/ObjectHierarchy/CharacterData.cs" Line="46" Column="1" />
-      <File FileName="Assets/Scripts/ObjectHierarchy/ClassData.cs" />
+      <File FileName="Assets/Scripts/ObjectHierarchy/CharacterData.cs" Line="25" Column="29" />
+      <File FileName="Assets/Scripts/ObjectHierarchy/PlayerData.cs" Line="28" Column="10" />
+      <File FileName="Assets/Scripts/ObjectHierarchy/ClassData.cs" Line="10" Column="6" />
       <File FileName="Assets/Scripts/ObjectHierarchy/RaceData.cs" />
-      <File FileName="Assets/Scripts/ObjectHierarchy/PlayerData.cs" />
+      <File FileName="Assets/Scripts/GameMechanics/TreeGenerator.cs" Line="9" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,9 +13,10 @@
           <Node name="RPG Generator" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="ObjectHierarchy" expanded="True">
-                  <Node name="CharacterData.cs" selected="True" />
+                <Node name="GameMechanics" expanded="True">
+                  <Node name="TreeGenerator.cs" selected="True" />
                 </Node>
+                <Node name="ObjectHierarchy" expanded="True" />
               </Node>
             </Node>
           </Node>
