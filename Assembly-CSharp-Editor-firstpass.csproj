@@ -65,12 +65,12 @@
   <ItemGroup>
     <Compile Include="Assets\Plugins\GitHub\Editor\ExtensionLoader.cs" />
     <Compile Include="Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs" />
-    <Compile Include="Assets\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
-    <Compile Include="Assets\Standard Assets\Editor\Water\Water4\GerstnerDisplaceEditor.cs" />
-    <Compile Include="Assets\Standard Assets\Editor\Water\Water4\PlanarReflectionEditor.cs" />
-    <Compile Include="Assets\Standard Assets\Editor\Water\Water4\SpecularLightingEditor.cs" />
-    <Compile Include="Assets\Standard Assets\Editor\Water\Water4\WaterBaseEditor.cs" />
-    <Compile Include="Assets\Standard Assets\Editor\Water\Water4\WaterEditorUtility.cs" />
+    <Compile Include="Assets\Plugins\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+    <Compile Include="Assets\Plugins\Standard Assets\Editor\Water\Water4\GerstnerDisplaceEditor.cs" />
+    <Compile Include="Assets\Plugins\Standard Assets\Editor\Water\Water4\PlanarReflectionEditor.cs" />
+    <Compile Include="Assets\Plugins\Standard Assets\Editor\Water\Water4\SpecularLightingEditor.cs" />
+    <Compile Include="Assets\Plugins\Standard Assets\Editor\Water\Water4\WaterBaseEditor.cs" />
+    <Compile Include="Assets\Plugins\Standard Assets\Editor\Water\Water4\WaterEditorUtility.cs" />
     <None Include="Assets\Plugins\GitHub\Editor\credits.txt" />
     <None Include="Assets\Plugins\GitHub\Editor\eula.txt" />
     <Reference Include="UnityEditor.TestRunner">
@@ -82,8 +82,14 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/garrettmoney/Unity/RPG Generator/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TerrainTools">
+      <HintPath>/Users/garrettmoney/Unity/RPG Generator/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>/Users/garrettmoney/Unity/RPG Generator/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>/Users/garrettmoney/Unity/RPG Generator/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/garrettmoney/Unity/RPG Generator/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -106,23 +112,17 @@
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>/Users/garrettmoney/Unity/RPG Generator/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/garrettmoney/Unity/RPG Generator/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/garrettmoney/Unity/RPG Generator/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>/Users/garrettmoney/Unity/RPG Generator/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
       <HintPath>/Users/garrettmoney/Unity/RPG Generator/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TerrainTools">
-      <HintPath>/Users/garrettmoney/Unity/RPG Generator/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>/Users/garrettmoney/Unity/RPG Generator/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TerrainTools.Editor">
       <HintPath>/Users/garrettmoney/Unity/RPG Generator/Library/ScriptAssemblies/Unity.TerrainTools.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>/Users/garrettmoney/Unity/RPG Generator/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -313,20 +313,20 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="GitHub.Api.45">
-      <HintPath>/Users/garrettmoney/Unity/RPG Generator/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Unity.45">
-      <HintPath>/Users/garrettmoney/Unity/RPG Generator/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
+    <Reference Include="GitHub.Logging">
+      <HintPath>/Users/garrettmoney/Unity/RPG Generator/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
     </Reference>
     <Reference Include="sfw.net">
       <HintPath>/Users/garrettmoney/Unity/RPG Generator/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
     </Reference>
+    <Reference Include="GitHub.Unity.45">
+      <HintPath>/Users/garrettmoney/Unity/RPG Generator/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
+    </Reference>
     <Reference Include="GitHub.UnityShim">
       <HintPath>/Users/garrettmoney/Unity/RPG Generator/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
     </Reference>
-    <Reference Include="GitHub.Logging">
-      <HintPath>/Users/garrettmoney/Unity/RPG Generator/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+    <Reference Include="GitHub.Api.45">
+      <HintPath>/Users/garrettmoney/Unity/RPG Generator/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>/Users/garrettmoney/Unity/RPG Generator/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>

@@ -7,6 +7,7 @@ public class TreeGenerator : MonoBehaviour
     public int treeCount = 40;
     public int spacing = 4;
 
+    public GameObject[] prefabs;
     public GameObject prefab;
     //public Element[] trees;
 
@@ -17,7 +18,7 @@ public class TreeGenerator : MonoBehaviour
             Vector3 position = new Vector3(Random.Range(1, 300), 0, Random.Range(1, 300));
             position.y = Terrain.activeTerrain.SampleHeight(position) + Terrain.activeTerrain.GetPosition().y;
             //Element tree = trees[0];
-            GameObject newTree = Instantiate(prefab);
+            GameObject newTree = Instantiate(prefabs[Random.Range(0, 2)]);
             newTree.transform.position = position;
 
             newTree.transform.eulerAngles = new Vector3(
