@@ -63,9 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Imported Assets\Conifers [BOTD]\CTI Runtime Components\Scripts\Editor\CTI_AdvancedEdgeFluttering.cs" />
-    <Compile Include="Assets\Imported Assets\Conifers [BOTD]\CTI Runtime Components\Scripts\Editor\CTI_DetailsEnum.cs" />
-    <Compile Include="Assets\Imported Assets\Conifers [BOTD]\CTI Runtime Components\Scripts\Editor\CTI_ShaderGUI.cs" />
+    <Compile Include="Assets\Height Mapper\Editor\HeightMapFromTexture.cs" />
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>/Users/garrettmoney/Unity/RPG Generator/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>

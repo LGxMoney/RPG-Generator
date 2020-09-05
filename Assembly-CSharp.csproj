@@ -63,8 +63,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Imported Assets\Conifers [BOTD]\CTI Runtime Components\Scripts\CTI_CustomWind.cs" />
-    <Compile Include="Assets\Imported Assets\Conifers [BOTD]\CTI Runtime Components\Scripts\CTI_Utils.cs" />
     <Compile Include="Assets\Scripts\GameMechanics\MouseLook.cs" />
     <Compile Include="Assets\Scripts\GameMechanics\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\GameMechanics\TreeGenerator.cs" />
@@ -74,22 +72,10 @@
     <Compile Include="Assets\Scripts\ObjectHierarchy\ItemData.cs" />
     <Compile Include="Assets\Scripts\ObjectHierarchy\PlayerData.cs" />
     <Compile Include="Assets\Scripts\ObjectHierarchy\RaceData.cs" />
-    <None Include="Assets\Imported Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\CTI_LOD_Billboard_301.shader" />
     <None Include="Assets\ClassesDatabase\FIGHTERobjgen.txt" />
-    <None Include="Assets\Imported Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\Includes\CTI_Builtin4xTreeLibraryTumbling_301.cginc" />
-    <None Include="Assets\Imported Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\Includes\CTI_TranslucentLighting_301.cginc" />
-    <None Include="Assets\Imported Assets\Conifers [BOTD]\Getting started.txt" />
-    <None Include="Assets\Imported Assets\Conifers [BOTD]\CTI Runtime Components\Resources\CTI_Camera-DepthNormalTexture_301.shader" />
-    <None Include="Assets\Imported Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\CTI_LOD_Leaves_301.shader" />
-    <None Include="Assets\Imported Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\CTI_LOD_Bark_Array_301.shader" />
-    <None Include="Assets\Imported Assets\Conifers [BOTD]\CTI Runtime Components\Resources\CTI_Internal-DeferredShading.shader" />
-    <None Include="Assets\Imported Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\Includes\CTI_indirect.cginc" />
-    <None Include="Assets\Imported Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\Includes\CTI_BillboardVertex_301.cginc" />
-    <None Include="Assets\Imported Assets\Conifers [BOTD]\CTI Runtime Components\Resources\CTI_Internal-DeferredReflections.shader" />
     <None Include="Assets\ClassesDatabase\WIZARDobjgen.txt" />
     <None Include="Assets\Imported Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
     <None Include="Assets\Imported Assets\Shaders\Skybox-Procedural.shader" />
-    <None Include="Assets\Imported Assets\Conifers [BOTD]\CTI Runtime Components\Shaders\CTI_LOD_Bark_301.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/garrettmoney/Unity/RPG Generator/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
