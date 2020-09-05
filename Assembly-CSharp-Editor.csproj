@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Height Mapper\Editor\HeightMapFromTexture.cs" />
+    <Compile Include="Assets\Height Mapper\Editor\HeightMapper.cs" />
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>/Users/garrettmoney/Unity/RPG Generator/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
